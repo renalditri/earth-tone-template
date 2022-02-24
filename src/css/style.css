@@ -1,0 +1,305 @@
+.box-title {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+}
+.box-text {
+  font-family: 'Poppins', cursive;
+  text-align: center;
+}
+
+.btn-wed{
+    color:#cec099;
+    border-color:#DDD5BE;
+    border-width: 2px;
+    height: 50px;
+    width: 200px;
+    padding: 0px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn-wed:hover{
+    color:#fff;
+    background-color:#cec099;
+    border-color:#DDD5BE;
+    border-width: 1px;
+}
+
+.btn-wed.focus,.btn-wed:focus{
+    box-shadow:0 0 0 .2rem rgba(232,224,202,.5)
+}
+
+.box-line {
+    width: 148px;
+    height: 2px;
+    background-color: #DDD5BE;
+}
+
+.couple-background {
+  background: #DDD5BE;
+  opacity: 0.85;
+  backdrop-filter: blur(8px);
+  height: 100%;
+}
+
+.container-margin {
+  margin-top: 10%;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-container .header-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 100%);
+}
+
+.footer-container {
+  position: relative;
+}
+
+.footer-container .footer-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(221, 213, 190, 0.5);
+  backdrop-filter: blur(15px);
+}
+
+.footer-text {
+  position:absolute;
+  top:30%;
+  bottom:0;
+  left:10%;
+  right:10%;
+  margin:auto;
+  font-family: 'Great Vibes'; 
+  color: rgba(0, 0, 0, 0.75); 
+  text-align: center;
+}
+
+.footer-copyright {
+  position:absolute;
+  top:55%;
+  bottom:0;
+  left:10%;
+  right:10%;
+  margin:auto;
+  font-size: xx-large;
+  font-family: 'Poppins'; 
+  color: rgba(0, 0, 0, 0.75); 
+  text-align: center;
+}
+
+.isi {
+  font-family: 'Poppins', cursive;
+  text-align: center;
+}
+
+.img-banner {
+  min-width: 100%;
+}
+
+.judul {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-logo {
+  max-width: 165px;
+  max-height: 113px;
+  margin: auto;
+}
+
+.nav-bg {
+  background-color: white;
+}
+
+.nav-link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+  color: black;
+}
+
+
+.slider {
+  width: 100%;
+  margin: 25px auto;
+}
+
+.slick-slide {
+margin: 0px 10px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: rgb(136, 101, 81);
+}
+
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: .5;
+}
+
+.slick-current {
+opacity: 1;
+}
+
+#clockdiv{
+font-family: 'Great Vibes';
+color: #fff;
+display: inline-block;
+font-weight: 100;
+text-align: center;
+}
+
+#clockdiv > div{
+padding: 10px;
+border-radius: 10px;
+display: inline-block;
+}
+
+#clockdiv div > span{
+padding: 0px;
+border-radius: 3px;
+display: inline-block;
+}
+
+.smalltext{
+padding-top: 1px;
+font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+
+.img-transfer {
+	max-height: 65px;
+	max-width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+@media (max-width: 576px) {
+  .footer-copyright {
+    font-size: small;
+  }
+}
+
+@media (min-width: 768px) {
+	.transfer {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
+
+@media(min-width: 576px) {
+  .tx {
+    padding-top: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-texts {
+    margin: auto;
+  }
+
+  .bg1 {
+    background: #DDD5BE;
+    opacity: 0.85;
+    backdrop-filter: blur(8px);
+  }
+
+  .bg2 {
+    background: #DDD5BE;
+    opacity: 0.85;
+    backdrop-filter: blur(8px);
+  }
+
+  .margin-nav {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+  .margin-logo {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-overlay{
+    font-size: 36px;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+  .carousel-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-img-overlay{
+    font-size: 60px;
+  }
+  .card-title{
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-img-overlay{
+    font-size: 72px;
+  }
+  .card-title{
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-img-overlay{
+    font-size: 96px;
+  }
+  .card-title{
+    font-size: 72px;
+  }
+}
+
+* {
+    box-sizing: border-box;
+}
