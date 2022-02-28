@@ -67,6 +67,7 @@ function initializeClock(id, endtime) {
   const hoursSpan = clock.querySelector('.hours');
   const minutesSpan = clock.querySelector('.minutes');
   const secondsSpan = clock.querySelector('.seconds');
+  const timeinterval = setInterval(updateClock, 1000);
 
   function updateClock() {
       const t = getTimeRemaining(endtime);
@@ -81,9 +82,7 @@ function initializeClock(id, endtime) {
       }
   }
   
-  
   updateClock();
-  const timeinterval = setInterval(updateClock, 1000);
 }
 
 const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
